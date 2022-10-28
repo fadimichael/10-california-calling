@@ -1,0 +1,428 @@
+/* -------------------------------------------------------------------------- */
+/*                                fonts & colors                               */
+/* -------------------------------------------------------------------------- */
+/* Font: WorkSans, Lora
+Farbe: #fff / #000 */
+
+
+@font-face {
+  font-family: lora;
+  src: url(../fonts/Lora-VariableFont_wght.ttf);
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: work-sans;
+  src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+  font-weight: 100 900;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  resusable                                 */
+/* -------------------------------------------------------------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: lora;
+  /* changes a default 16px font size to 10px */
+}
+
+p {
+  font-family: work-sans;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  font-weight: 600;
+  padding-top: 2.4rem;
+}
+
+h1,
+h2,
+h4,
+.banner {
+  font-size: 8.8rem;
+  line-height: 7rem;
+  font-weight: 600;
+}
+
+header,
+.sec-01,
+.sec-03,
+footer {
+  background-color: #000;
+  color: #fff;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  /* outline: 1rem solid red; */
+}
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   header                                   */
+/* -------------------------------------------------------------------------- */
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  gap: 10rem;
+  padding-bottom: 10rem;
+}
+
+header>img {
+  height: 20vh;
+}
+
+h1 {
+  /* outline: 1px solid greenyellow; */
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1.6rem auto;
+  width: fit-content;
+
+}
+
+h1 span {
+  color: #000;
+  -webkit-text-stroke: 1px #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-rsvp {
+  color: #fff;
+  font-family: work-sans;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border: .5px solid #fff;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    main                                    */
+/* -------------------------------------------------------------------------- */
+
+/* --------------------------------- sec-01 --------------------------------- */
+.sec-01 {
+  background-image: url("../images/map.svg");
+  background-repeat: no-repeat;
+  background-position: bottom 160px right;
+  background-size: 509px;
+}
+
+
+.sec-01 h2 {
+  padding: 0rem 10rem 6.4rem 0rem;
+  line-height: 11.2rem;
+}
+
+h3 {
+  font-size: 6.4rem;
+  line-height: 8.2rem;
+  font-weight: 600;
+  padding-bottom: 4rem;
+}
+
+h3:last-of-type {
+  padding-bottom: 10rem;
+}
+
+
+/* --------------------------------- sec-02 --------------------------------- */
+.container {
+  width: 38vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 72rem;
+  padding-top: 40rem;
+  padding-bottom: 24rem;
+}
+
+.sec-02 {
+  position: relative;
+}
+
+.sec-02 .pic01 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: -8rem;
+  right: 16rem;
+}
+
+.sec-02 .pic02 {
+  position: absolute;
+  width: 240px;
+  height: 160px;
+  top: 24rem;
+  left: 4rem;
+}
+
+.sec-02 .pic03 {
+  position: absolute;
+  width: 240px;
+  height: 160px;
+  top: 60rem;
+  right: 0rem;
+}
+
+.sec-02 .pic04 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 94rem;
+  left: 24rem;
+}
+
+.sec-02 .pic05 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 100rem;
+  right: 20rem;
+}
+
+.sec-02 .pic06 {
+  position: absolute;
+  width: 240px;
+  height: 160px;
+  bottom: 30rem;
+  left: 0rem;
+}
+
+.sec-02 .pic07 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  bottom: -8rem;
+  right: 24rem;
+}
+
+/* --------------------------------- sec-03 --------------------------------- */
+.sec-03 {
+  padding-bottom: 67rem;
+}
+
+.sec-03 .wrapper,
+.sec-04 .wrapper {
+  display: flex;
+  padding-top: 21rem;
+  gap: 8rem;
+  padding-bottom: 3.8rem;
+}
+
+.wrapper article {
+  width: 50%;
+}
+
+.page-numbers {
+  padding-top: 0rem;
+  padding-bottom: 2.4rem;
+}
+
+.sec-03 h2 {
+  width: 30%;
+}
+
+h4 {
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+}
+
+.sec-03-pics-bottom {
+  position: relative;
+}
+
+.sec-03-pics-bottom>.left-pic {
+  width: 50vw;
+  height: auto;
+  position: absolute;
+  top: 3.8rem;
+  left: 4rem;
+  object-fit: contain;
+  z-index: 1;
+
+}
+
+.sec-03-pics-bottom>.right-pic {
+  width: 35vw;
+  height: 65vh;
+  position: absolute;
+  top: 17rem;
+  right: 4rem;
+  object-fit: contain;
+  z-index: 2;
+}
+
+
+/* --------------------------------- sec-04 --------------------------------- */
+
+.sec-04 {
+  padding: 20rem 10rem 10rem 10rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.sec-04>img {
+  position: absolute;
+  width: 25vw;
+  top: -10rem;
+  right: -10rem;
+  animation: circle 6s linear infinite forwards;
+  -webkit-animation: circle 6s linear infinite forwards;
+}
+
+@keyframes circle {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sec-04 .wrapper {
+  margin-bottom: 2rem;
+}
+
+.sec-04 h2 {
+  width: 20%;
+}
+
+.sec-04-pics-bottom {
+  /* position: absolute; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.sec-04-pics-bottom>.left-pic {
+  width: 30vw;
+  object-fit: cover;
+  z-index: 2;
+  margin-right: -10rem;
+}
+
+.sec-04-pics-bottom>.right-pic {
+  width: 55vw;
+  object-fit: cover;
+  z-index: 1;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                   footer                                   */
+/* -------------------------------------------------------------------------- */
+
+.footer-top {
+  display: flex;
+  position: relative;
+  z-index: 90;
+}
+
+footer {
+  overflow: hidden;
+}
+
+.footer-top-left {
+  width: 42%;
+  margin-bottom: 10rem;
+}
+
+.footer-top-left h4 {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.banner-wrapper {
+  width: 80rem;
+  background-color: #fff;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 19.5rem;
+  right: -25.5rem;
+  white-space: nowrap;
+  float: right;
+  overflow: hidden;
+}
+
+.banner {
+  font-family: lora;
+  padding: 1.6rem;
+  color: #000;
+  animation: banner 5s linear infinite alternate both;
+}
+
+@keyframes banner {
+  0% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+  }
+}
+
+.banner span {
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+}
+
+.footer-bottom {
+  width: 100%;
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left>a>img {
+  width: 12%;
+  margin-right: .5rem;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer-right>img {
+  width: 40%;
+}
+
+.footer-right>img:nth-of-type(2) {
+  margin-right: -20rem;
+}

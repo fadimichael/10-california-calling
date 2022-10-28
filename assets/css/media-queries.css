@@ -1,0 +1,361 @@
+/* -------------------------------------------------------------------------- */
+/*             X-Small devices (portrait phones, less than 576px)             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 575.98px) {
+
+  h1,
+  h2,
+  h4,
+  .banner {
+    font-size: 4.4rem;
+  }
+
+  header,
+  .sec-01,
+  .sec-03,
+  footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  header {
+    gap: 1rem;
+  }
+
+  .btn-rsvp {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+
+  .sec-01 {
+    background-size: 250px;
+  }
+
+  .sec-01 h2 {
+    line-height: 4.5rem;
+    text-align: center;
+    padding: 0rem;
+  }
+
+  h3 {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    font-weight: 600;
+  }
+
+  .images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .sec-02 .pic01,
+  .sec-02 .pic03,
+  .sec-02 .pic05,
+  .sec-02 .pic07 {
+    position: static;
+    margin-right: 0rem;
+    margin-left: auto;
+    margin-top: 5rem;
+  }
+
+  .sec-02 .pic02,
+  .sec-02 .pic04,
+  .sec-02 .pic06 {
+    position: static;
+    margin-left: 0rem;
+    margin-right: auto;
+  }
+
+  .container {
+    text-align: center;
+    width: 100%;
+    gap: 5rem;
+    padding: 0rem 2rem;
+  }
+
+  .sec-03 {
+    width: 100%;
+    padding-bottom: 22rem;
+  }
+
+  .sec-03 .wrapper,
+  .sec-04 .wrapper {
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 4rem;
+    padding-bottom: 3.8rem;
+  }
+
+  .wrapper article {
+    width: 100%;
+  }
+
+  .sec-03 h2,
+  .sec-04 h2 {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 2.4rem;
+  }
+
+  .sec-04 {
+    padding: 4rem 2rem 5rem 2rem;
+  }
+
+  .sec-03-pics-bottom>.left-pic {
+    left: 0rem;
+  }
+
+  .sec-03-pics-bottom>.right-pic {
+    top: -10rem;
+    right: 4rem;
+
+  }
+
+  .sec-04 {
+    padding: 20rem 2rem 10rem 2rem;
+  }
+
+  .sec-04>img {
+    top: -3rem;
+    right: -3rem;
+  }
+
+  .sec-04-pics-bottom>.left-pic {
+    width: 35vw;
+
+    margin-right: -2rem;
+  }
+
+  .sec-04-pics-bottom>.right-pic {
+    width: 60vw;
+  }
+
+  .banner-wrapper {
+    top: 9.5rem;
+    right: -35.5rem;
+  }
+
+  .banner {
+    padding: 0rem;
+  }
+
+  .footer-top-left {
+    width: 100%;
+    padding-top: 12rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .footer-left>a>img {
+    width: 20%;
+    margin-right: 3rem;
+  }
+
+}
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*              Small devices (landscape phones, less than 768px)             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 767.98px) {
+
+  h1,
+  h2,
+  h4,
+  .banner {
+    font-size: 4.4rem;
+  }
+
+  header,
+  .sec-01,
+  .sec-03,
+  footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  header {
+    gap: 1rem;
+  }
+
+  .btn-rsvp {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+
+  .sec-01 {
+    background-size: 250px;
+  }
+
+  .sec-01 h2 {
+    line-height: 4.5rem;
+    text-align: center;
+    padding: 0rem;
+  }
+
+  h3 {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+  }
+
+  .images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .sec-02 .pic01,
+  .sec-02 .pic03,
+  .sec-02 .pic05,
+  .sec-02 .pic07 {
+    position: static;
+    margin-right: 0rem;
+    margin-left: auto;
+    margin-top: 5rem;
+  }
+
+  .sec-02 .pic02,
+  .sec-02 .pic04,
+  .sec-02 .pic06 {
+    position: static;
+    margin-left: 0rem;
+    margin-right: auto;
+  }
+
+  .container {
+    text-align: center;
+    width: 100%;
+    gap: 5rem;
+    padding: 0rem 2rem;
+  }
+
+  .sec-03 {
+    width: 100%;
+    padding-bottom: 38rem;
+  }
+
+  .sec-03 .wrapper,
+  .sec-04 .wrapper {
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 4rem;
+    padding-bottom: 3.8rem;
+  }
+
+  .wrapper article {
+    width: 100%;
+  }
+
+  .sec-03 h2,
+  .sec-04 h2 {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 2.4rem;
+  }
+
+  .sec-04 {
+    padding: 4rem 2rem 5rem 2rem;
+
+  }
+
+  .sec-03-pics-bottom>.left-pic {
+    left: 6rem;
+  }
+
+  .sec-03-pics-bottom>.right-pic {
+    top: -1rem;
+    width: 30vw;
+    right: 6rem;
+  }
+
+  .sec-04 {
+    padding: 20rem 2rem 10rem 2rem;
+  }
+
+  .sec-04>img {
+    top: -5rem;
+    right: -5rem;
+  }
+
+  .sec-04-pics-bottom>.left-pic {
+    width: 35vw;
+    margin-right: -2rem;
+  }
+
+  .sec-04-pics-bottom>.right-pic {
+    width: 60vw;
+  }
+
+  .banner-wrapper {
+    top: 9.5rem;
+    right: -35.5rem;
+  }
+
+  .banner {
+    padding: 0rem;
+  }
+
+  .footer-top-left {
+    width: 100%;
+    padding-top: 12rem;
+  }
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                  Medium devices (tablets, less than 992px)                 */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 991.98px) {
+  .sec-04>img {
+    top: -7rem;
+    right: -7rem;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                 Large devices (desktops, less than 1200px)                 */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 1199.98px) {
+
+  .sec-03 {
+    padding-bottom: 68rem;
+  }
+
+  .sec-03-pics-bottom>.left-pic {
+    top: 15rem;
+
+  }
+
+  .sec-03-pics-bottom>.right-pic {
+    top: 1rem;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/*             X-Large devices (large desktops, less than 1400px)             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 1399.98px) {
+  .sec-03-pics-bottom>.left-pic {
+    top: 6rem;
+
+  }
+
+  .sec-03-pics-bottom>.right-pic {
+    top: -2rem;
+  }
+}
